@@ -1,0 +1,49 @@
+{
+  "name": "webpack-creativesite-boilerplate",
+  "version": "0.0.0",
+  "description": "A creative site, based on Webpack",
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
+  },
+  "scripts": {
+    "prod": "webpack --node-env=production",
+    "dev": "webpack --node-env=development --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.2",
+    "@squoosh/lib": "^0.5.3",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^9.1.2",
+    "browser-sync": "^2.29.3",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.0",
+    "dat.gui": "^0.7.9",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.41.0",
+    "eslint-webpack-plugin": "^4.0.1",
+    "glsl-noise": "0.0.0",
+    "glslify": "^7.1.1",
+    "glslify-loader": "^2.0.0",
+    "gsap": "^3.11.5",
+    "imagemin-webp-webpack-plugin": "^3.3.6",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss": "^8.4.23",
+    "postcss-loader": "^7.3.1",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.3.0",
+    "stats-js": "^1.0.1",
+    "stylelint": "^15.6.2",
+    "stylelint-config-standard": "^33.0.0",
+    "stylelint-scss": "^5.0.0",
+    "stylelint-webpack-plugin": "^4.1.1",
+    "three": "^0.152.2",
+    "three-orbitcontrols": "^2.110.3",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
